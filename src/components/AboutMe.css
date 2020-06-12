@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.abtme {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  position: relative;
+  margin-left: 7%;
+  font-size: large;
+}
+
+.abtme > b {
+  font-size: larger;
+}
