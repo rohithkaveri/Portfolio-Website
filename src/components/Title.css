@@ -4,24 +4,27 @@
   position: relative;
   top: 30%;
   left: 50%;
-  width: 100%;
+  width: 80%;
   padding: 1% 1%;
   transform: translate(-50%, -50%);
   text-align: center;
   min-width: 80%;
+  margin-top: 10%;
 }
 
 .letter {
-  width: 24px;
+  width: 1em;
   display: inline-block;
   vertical-align: middle;
   position: relative;
   overflow: hidden;
   margin: 0 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 28px;
+  /*default values in comments are 40px*/
+  /*font-size: calc(10px + 2.2vw);*/
+  font-size: max(2.77vw, 20px);
   font-weight: 500;
-  line-height: 25px;
+  line-height: 0.875em; /*35px*/
   text-transform: uppercase;
   color: #eee;
 }
@@ -35,8 +38,8 @@
 }
 
 .letter:nth-child(1):before {
-  content: "1563847092";
-  margin-top: -144px;
+  content: "563847092";
+  margin-top: -3.6em; /*-144px*/
   -webkit-animation-name: letter1;
   animation-name: letter1;
   -webkit-animation-duration: 0.8714285714s;
@@ -49,24 +52,24 @@
 
 @-webkit-keyframes letter1 {
   from {
-    margin-top: -144px;
+    margin-top: -3.6em; /*same as margin top above*/
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em; /*this is the same as parent font size 40px*/
   }
 }
 
 @keyframes letter1 {
   from {
-    margin-top: -144px;
+    margin-top: -3.6em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(2):before {
-  content: "4590716283";
-  margin-top: -168px;
+  content: "5976283";
+  margin-top: -4.2em; /*-168px*/
   -webkit-animation-name: letter2;
   animation-name: letter2;
   -webkit-animation-duration: 0.875s;
@@ -79,24 +82,24 @@
 
 @-webkit-keyframes letter2 {
   from {
-    margin-top: -168px;
+    margin-top: -4.2em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter2 {
   from {
-    margin-top: -168px;
+    margin-top: -4.2em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(3):before {
   content: "9352168074";
-  margin-top: -192px;
+  margin-top: -4.8em; /*-192px*/
   -webkit-animation-name: letter3;
   animation-name: letter3;
   -webkit-animation-duration: 3.3777777778s;
@@ -109,24 +112,24 @@
 
 @-webkit-keyframes letter3 {
   from {
-    margin-top: -192px;
+    margin-top: -4.8em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter3 {
   from {
-    margin-top: -192px;
+    margin-top: -4.8em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(4):before {
   content: "1629835740";
-  margin-top: -96px;
+  margin-top: -2.4em; /*-96px*/
   -webkit-animation-name: letter4;
   animation-name: letter4;
   -webkit-animation-duration: 1.088s;
@@ -139,24 +142,24 @@
 
 @-webkit-keyframes letter4 {
   from {
-    margin-top: -96px;
+    margin-top: -2.4em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter4 {
   from {
-    margin-top: -96px;
+    margin-top: -2.4em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(5):before {
   content: "6375084921";
-  margin-top: -120px;
+  margin-top: -3em; /*-120px*/
   -webkit-animation-name: letter5;
   animation-name: letter5;
   -webkit-animation-duration: 1.5333333333s;
@@ -169,24 +172,24 @@
 
 @-webkit-keyframes letter5 {
   from {
-    margin-top: -120px;
+    margin-top: -3em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter5 {
   from {
-    margin-top: -120px;
+    margin-top: -3em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(6):before {
   content: "8674152390";
-  margin-top: -96px;
+  margin-top: -2.4em; /*-96px*/
   -webkit-animation-name: letter6;
   animation-name: letter6;
   -webkit-animation-duration: 0.352s;
@@ -199,24 +202,24 @@
 
 @-webkit-keyframes letter6 {
   from {
-    margin-top: -96px;
+    margin-top: -2.4em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter6 {
   from {
-    margin-top: -96px;
+    margin-top: -2.4em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(7):before {
   content: "2961458073";
-  margin-top: -192px;
+  margin-top: -4.8em; /*-192px*/
   -webkit-animation-name: letter7;
   animation-name: letter7;
   -webkit-animation-duration: 2.9155555556s;
@@ -229,24 +232,24 @@
 
 @-webkit-keyframes letter7 {
   from {
-    margin-top: -192px;
+    margin-top: -4.8em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter7 {
   from {
-    margin-top: -192px;
+    margin-top: -4.8em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(8):before {
   content: "9184376520";
-  margin-top: 0px;
+  margin-top: 0em; /*0px*/
   -webkit-animation-name: letter8;
   animation-name: letter8;
   -webkit-animation-duration: 0.6s;
@@ -259,24 +262,24 @@
 
 @-webkit-keyframes letter8 {
   from {
-    margin-top: 0px;
+    margin-top: 0em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter8 {
   from {
-    margin-top: 0px;
+    margin-top: 0em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(9):before {
   content: "3196820547";
-  margin-top: 0px;
+  margin-top: 0em;
   -webkit-animation-name: letter9;
   animation-name: letter9;
   -webkit-animation-duration: 0.99s;
@@ -289,24 +292,24 @@
 
 @-webkit-keyframes letter9 {
   from {
-    margin-top: 0px;
+    margin-top: 0em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter9 {
   from {
-    margin-top: 0px;
+    margin-top: 0em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(10):before {
-  content: "4158329607";
-  margin-top: -72px;
+  content: "458329607";
+  margin-top: -1.8em; /*-72px*/
   -webkit-animation-name: letter10;
   animation-name: letter10;
   -webkit-animation-duration: 2.76s;
@@ -319,24 +322,24 @@
 
 @-webkit-keyframes letter10 {
   from {
-    margin-top: -72px;
+    margin-top: -1.8em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter10 {
   from {
-    margin-top: -72px;
+    margin-top: -1.8em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(11):before {
   content: "1958603724";
-  margin-top: -24px;
+  margin-top: -0.625em; /*-25px*/
   -webkit-animation-name: letter11;
   animation-name: letter11;
   -webkit-animation-duration: 0.28s;
@@ -349,24 +352,24 @@
 
 @-webkit-keyframes letter11 {
   from {
-    margin-top: -24px;
+    margin-top: -0.625em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter11 {
   from {
-    margin-top: -24px;
+    margin-top: -0.625em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(12):before {
   content: "3195876024";
-  margin-top: -216px;
+  margin-top: -5.4em; /*-216px*/
   -webkit-animation-name: letter12;
   animation-name: letter12;
   -webkit-animation-duration: 2.72s;
@@ -379,24 +382,24 @@
 
 @-webkit-keyframes letter12 {
   from {
-    margin-top: -216px;
+    margin-top: -5.4em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter12 {
   from {
-    margin-top: -216px;
+    margin-top: -5.4em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(13):before {
   content: "9576842301";
-  margin-top: -192px;
+  margin-top: -4.8em; /*-192px*/
   -webkit-animation-name: letter13;
   animation-name: letter13;
   -webkit-animation-duration: 1.088s;
@@ -409,24 +412,24 @@
 
 @-webkit-keyframes letter13 {
   from {
-    margin-top: -192px;
+    margin-top: -4.8em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter13 {
   from {
-    margin-top: -192px;
+    margin-top: -4.8em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(14):before {
   content: "2951870364";
-  margin-top: -96px;
+  margin-top: -2.4em; /*-96px*/
   -webkit-animation-name: letter14;
   animation-name: letter14;
   -webkit-animation-duration: 2.72s;
@@ -439,24 +442,24 @@
 
 @-webkit-keyframes letter14 {
   from {
-    margin-top: -96px;
+    margin-top: -2.4em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter14 {
   from {
-    margin-top: -96px;
+    margin-top: -2.4em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(15):before {
   content: "5308172694";
-  margin-top: -72px;
+  margin-top: -1.8em; /*-72px*/
   -webkit-animation-name: letter15;
   animation-name: letter15;
   -webkit-animation-duration: 2.43s;
@@ -469,24 +472,24 @@
 
 @-webkit-keyframes letter15 {
   from {
-    margin-top: -72px;
+    margin-top: -1.8em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter15 {
   from {
-    margin-top: -72px;
+    margin-top: -1.8em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(16):before {
   content: "8475197263";
-  margin-top: -144px;
+  margin-top: -3.6em; /*-144px*/
   -webkit-animation-name: letter16;
   animation-name: letter16;
   -webkit-animation-duration: 0.9942857143s;
@@ -499,24 +502,24 @@
 
 @-webkit-keyframes letter16 {
   from {
-    margin-top: -144px;
+    margin-top: -3.6em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter16 {
   from {
-    margin-top: -144px;
+    margin-top: -3.6em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(17):before {
   content: "8475192263";
-  margin-top: -144px;
+  margin-top: -3.6em;
   -webkit-animation-name: letter17;
   animation-name: letter17;
   -webkit-animation-duration: 0.9s;
@@ -529,24 +532,24 @@
 
 @-webkit-keyframes letter17 {
   from {
-    margin-top: -144px;
+    margin-top: -3.6em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter17 {
   from {
-    margin-top: -144px;
+    margin-top: -3.6em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 .letter:nth-child(18):before {
   content: "9184376520";
-  margin-top: -100px;
+  margin-top: -2.5em; /*-100px*/
   -webkit-animation-name: letter18;
   animation-name: letter18;
   -webkit-animation-duration: 0.8s;
@@ -559,18 +562,18 @@
 
 @-webkit-keyframes letter18 {
   from {
-    margin-top: -100px;
+    margin-top: -2.5em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }
 
 @keyframes letter18 {
   from {
-    margin-top: -100px;
+    margin-top: -2.5em;
   }
   to {
-    margin-top: 24px;
+    margin-top: 1em;
   }
 }

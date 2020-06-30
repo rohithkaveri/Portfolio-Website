@@ -1,0 +1,41 @@
+.card-wrapper {
+  border-radius: 2px;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  position: relative;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.5rem;
+  background-color: burlywood;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.text-items {
+  margin-left: 5%;
+  display: table-column;
+}
+
+.text-items > b {
+  font-size: x-large;
+}
+
+.text-items > p {
+  margin-top: 10%;
+}
+
+.img-wrapper {
+  margin: 1% auto;
+  display: inline-flex;
+}
+
+.img-wrapper > img {
+  width: 25%;
+  height: 25%;
+}
+
+.card-content {
+  color: white;
+  padding: 1.5rem;
+  border-radius: 0 0 2px 2px;
+}

@@ -9,10 +9,10 @@ function Toolbar() {
       <nav className="nav_links">
         <ul>
           <li>
-            <a href="#/About-Me">About Me</a>
+            <a href="#/Projects">Projects</a>
           </li>
           <li>
-            <a href="#/Projects">Projects</a>
+            <a href="#/Blog">Blog</a>
           </li>
           <li>
             <a href="#/Contact">Contact</a>

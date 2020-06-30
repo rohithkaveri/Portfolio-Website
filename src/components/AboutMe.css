@@ -4,10 +4,22 @@
   font-family: "Montserrat";
   font-size: 1rem;
   position: relative;
-  margin-left: 7%;
+  margin-top: 5%;
   font-size: large;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 24px;
+  border-radius: 2px;
+  background-color: burlywood;
 }
 
 .abtme > b {
   font-size: larger;
+  text-decoration: underline dotted;
+}
+
+.details > a {
+  text-decoration: none;
+  color: aqua;
+  cursor: pointer;
 }
