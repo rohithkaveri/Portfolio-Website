@@ -26,3 +26,13 @@
   color: white;
   border-bottom: solid 0.2rem tomato;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.contact-txt {
+  text-align: center;
+  color: white;
+  margin-bottom: 5%;
+}

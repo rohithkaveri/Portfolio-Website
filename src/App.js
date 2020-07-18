@@ -12,8 +12,15 @@ function App() {
       <div className="wrap">
         <Title></Title>
         <AboutMe></AboutMe>
-        <span className="proj-title">PROJECTS</span>
+
+        <span className="proj-title" id="Projects">
+          PROJECTS
+        </span>
         <ProjectList></ProjectList>
+        <span className="proj-title" id="Contact">
+          CONTACT
+        </span>
+        <span className="contact-txt">rohithkaveri5@gmail.com</span>
       </div>
     </div>
   );
